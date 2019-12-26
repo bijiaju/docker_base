@@ -59,9 +59,9 @@
                 <version>1.0.0</version>
                 <configuration>
                     <!-- docker私服的地址 -->
-                    <dockerHost>http://192.168.236.128:2375</dockerHost>
+                    <dockerHost>http://192.168.56.128:2375</dockerHost>
                     <!--最终生成 镜像名称以及版本号-->
-                    <imageName>192.168.236.128:5000/docker_base</imageName>
+                    <imageName>192.168.56.128:5000/docker_base</imageName>
                     <!--依赖的基础镜像-->
                     <!--  <baseImage>hub.c.163.com/r00txx/java8</baseImage>-->
                      <!--Dockerfile的位置 -->
