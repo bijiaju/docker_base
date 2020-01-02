@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da9430-e610-4e5e-aa3b-ce7cfc7d97b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/UpdateDocker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/enum1/EPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/enum1/OSinfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
@@ -252,7 +249,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577947100043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577948097311" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/hp/docker_base" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/mingw64/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -307,7 +304,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577675339492</updated>
       <workItem from="1577675343744" duration="1402000" />
-      <workItem from="1577932364458" duration="6201000" />
+      <workItem from="1577932364458" duration="6829000" />
     </task>
     <task id="LOCAL-00001" summary="修改ip">
       <created>1577934634730</created>
@@ -323,11 +320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577934987129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试更新">
+      <created>1577947112658</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577947112658</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7603000" />
+    <option name="totallyTimeSpent" value="8231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
