@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da9430-e610-4e5e-aa3b-ce7cfc7d97b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/SQLExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/bean/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/util/BeanUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-578">
@@ -108,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
+            <state relative-caret-position="175">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -201,11 +196,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/UpdateDocker.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/BeanUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/bean/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/SQLExecute.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -331,7 +326,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578274936857" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578276744137" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/hp/docker_base" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/mingw64/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -388,7 +383,7 @@
       <workItem from="1577675343744" duration="1402000" />
       <workItem from="1577932364458" duration="8201000" />
       <workItem from="1577962850671" duration="1242000" />
-      <workItem from="1578270937627" duration="4459000" />
+      <workItem from="1578270937627" duration="5794000" />
     </task>
     <task id="LOCAL-00001" summary="修改ip">
       <created>1577934634730</created>
@@ -418,17 +413,24 @@
       <option name="project" value="LOCAL" />
       <updated>1577948152382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试插入数据">
+      <created>1578275427223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578275427223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15304000" />
+    <option name="totallyTimeSpent" value="16639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25499" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,7 +441,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32997987" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3993964" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3993964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -471,7 +473,8 @@
     <MESSAGE value="修改ip" />
     <MESSAGE value="测试更新" />
     <MESSAGE value="修改时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改时间" />
+    <MESSAGE value="测试插入数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试插入数据" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
@@ -563,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/docker_base/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -625,6 +621,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-578">
           <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
