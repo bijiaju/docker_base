@@ -44,6 +44,24 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+
+
+        <!-- 数据库依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.29</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -61,7 +79,7 @@
                     <!-- docker私服的地址 -->
                     <dockerHost>http://192.168.176.251:2375</dockerHost>
                     <!--最终生成 镜像名称以及版本号-->
-                    <imageName>192.168.176.251:5000/docker_base</imageName>
+                    <imageName>192.168.176.251:5000/docker_base:1.0.1</imageName>
                     <!--依赖的基础镜像-->
                     <!--  <baseImage>hub.c.163.com/r00txx/java8</baseImage>-->
                      <!--Dockerfile的位置 -->
