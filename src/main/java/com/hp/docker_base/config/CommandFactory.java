@@ -14,7 +14,7 @@ public class CommandFactory {
             case "execUpgrade":
                 return new UpgradeVersion();
 
-            case "restart":
+            case "restartClient":
                 return new RestartAppService();
 
             case "downloadUpgradeFile":
