@@ -15,7 +15,10 @@ public class CommandFactory {
                 return new UpgradeVersion();
 
             case "restart":
-                return new RestartApp();
+                return new RestartAppService();
+
+            case "downloadUpgradeFile":
+                return new DownloadUpgradeFileService();
 
             default:
                 break;
