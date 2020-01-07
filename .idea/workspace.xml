@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da9430-e610-4e5e-aa3b-ce7cfc7d97b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/CommandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/ExecSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/RestartApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/RollbackVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/UpgradeVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/DockerClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/WebSocketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/impl/ScoketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/util/JaveShellUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/UpdateDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/docker_base/TimeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,11 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/CommandFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="250">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -163,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/SQLExecute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/WebSocketServer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/websocket.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/DemoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/WebSocketService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/service/impl/ScoketClient.java" />
@@ -186,8 +174,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/RollbackVersion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/UpgradeVersion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -362,7 +351,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578362187109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578362646385" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/hp/docker_base" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/mingw64/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -457,7 +446,7 @@
       <workItem from="1577962850671" duration="1242000" />
       <workItem from="1578270937627" duration="24398000" />
       <workItem from="1578304108447" duration="1795000" />
-      <workItem from="1578357349020" duration="3673000" />
+      <workItem from="1578357349020" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="修改ip">
       <created>1577934634730</created>
@@ -508,17 +497,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578277705047</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="执行命令">
+      <created>1578362260541</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578362260541</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40711000" />
+    <option name="totallyTimeSpent" value="41307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -529,7 +525,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.499501" visible="true" weight="0.43058568" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499501" visible="true" weight="0.43058568" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -564,7 +560,8 @@
     <MESSAGE value="测试插入数据" />
     <MESSAGE value="root" />
     <MESSAGE value="修改sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改sql" />
+    <MESSAGE value="执行命令" />
+    <option name="LAST_COMMIT_MESSAGE" value="执行命令" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
@@ -631,13 +628,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -901,8 +891,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/docker_base/config/CommandFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="250">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
