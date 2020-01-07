@@ -13,4 +13,9 @@ public class MyController {
     public String test(){
         return "index";
     }
+
+ /*   @RequestMapping("/websocket")
+    public String websocket(){
+        return "index";
+    }*/
 }

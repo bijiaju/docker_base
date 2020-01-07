@@ -1,6 +1,9 @@
 package com.hp.docker_base;
 
+import com.hp.docker_base.config.WebSocketConfig;
 import com.hp.docker_base.enum1.OSinfo;
+import org.java_websocket.client.WebSocketClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -10,13 +13,22 @@ import org.springframework.stereotype.Component;
 @Component
 @Configurable
 @EnableScheduling//开启定时任务
-public class UpdateDocker {
+public class TimeTask {
 
-    @Scheduled(cron = "* * * * * * ")
+    @Autowired
+    private WebSocketConfig config;
+
+    @Scheduled(cron = "0 */1 * * * * ")//每一分钟执行一次
     public void updateDocker(){
-        System.out.println ("updateDocker...");
-       // System.out.println ("发邮件时间： " + dateFormat ().format (new Date ()));
-       // sendAttachmentMail();
+        WebSocketClient webSocketClient = config.webSocketClient();
+        boolean closed = webSocketClient.isClosed();
+        if (closed){
+            System.out.println("服务断开，正在重连...");
+            webSocketClient.connect();
+        }else{
+            return;
+        }
+        //return message;
     }
 
 
