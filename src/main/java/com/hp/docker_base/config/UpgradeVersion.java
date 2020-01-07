@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class UpgradeVersion implements ICommand {
     @Override
     public void operate() throws Exception {
-        String command="/conf/upgrade.sh";
+        String command="/opt/program/docker/docker_clinet_conf/upgrade.sh";
         //需要传递的就是shell脚本的位置
         int retCode= JaveShellUtil.ExecCommand(command);
         System.out.println(retCode+"retCode");
